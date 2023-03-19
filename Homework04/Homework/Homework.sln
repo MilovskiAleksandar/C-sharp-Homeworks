@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeCalculator", "AgeCalculator\AgeCalculator.csproj", "{F2D2265E-E0FE-4498-AA78-5E7631BDE27D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogExercise", "DogExercise\DogExercise.csproj", "{880F594A-A3C3-4909-AD33-E33FD9A021C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2D2265E-E0FE-4498-AA78-5E7631BDE27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D2265E-E0FE-4498-AA78-5E7631BDE27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D2265E-E0FE-4498-AA78-5E7631BDE27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D2265E-E0FE-4498-AA78-5E7631BDE27D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880F594A-A3C3-4909-AD33-E33FD9A021C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880F594A-A3C3-4909-AD33-E33FD9A021C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880F594A-A3C3-4909-AD33-E33FD9A021C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880F594A-A3C3-4909-AD33-E33FD9A021C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {669B664E-F1A1-4915-AD1E-F16694934FB5}
+	EndGlobalSection
+EndGlobal
