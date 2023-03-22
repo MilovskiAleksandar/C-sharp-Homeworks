@@ -23,7 +23,7 @@ contractor.CurrentPosition();
 double salaryContractor = contractor.GetSalary();
 Console.WriteLine(salaryContractor);
 
-CEO ceo = new CEO("Danilo", "Borozan", Role.CEO, 1500, 20);
+CEO ceo = new CEO("Marko", "Markovski", Role.CEO, 1500, 20);
 ceo.PrintInfo();
 ceo.AddSharesPrice(100);
 Console.WriteLine("Salary of CEO is: " + ceo.GetSalary());
