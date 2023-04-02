@@ -17,8 +17,7 @@ salesPerson.PrintInfo();
 salesPerson.AddSuccessRevenue(2000);
 Console.WriteLine(salesPerson.GetSalary());
 
-//inicializirav Salary na 0 zatoa sto neznaev kako poinaku da go sredam :)
-Contractor contractor = new Contractor("Aleksandar", "Milovski", Role.Contractor,0, 150, 10, manager); 
+Contractor contractor = new Contractor("Aleksandar", "Milovski", Role.Contractor,150, 10, manager); 
 contractor.CurrentPosition();
 double salaryContractor = contractor.GetSalary();
 Console.WriteLine(salaryContractor);
@@ -33,11 +32,16 @@ Console.WriteLine("Salary of CEO is: " + ceo.GetSalary());
 //ceoName.PrintInfo(), ceoName.PrintEmployees() and ceoName.GetSalary() to check if everything is working.
 List<Employee> company = new List<Employee>()
 {
-    new Contractor("Aleksandar", "Milovski", Role.Contractor,0, 150, 10, manager),
-    new Contractor("Rick", "Ricky", Role.Contractor,0, 150, 10, manager),
+    new Contractor("Aleksandar", "Milovski", Role.Contractor,150, 10, manager),
+    new Contractor("Rick", "Ricky", Role.Contractor,150, 10, manager),
     new Manager("Bob", "Bobert", Role.Manager, 1000),
     new Manager("Mona", "Lisa", Role.Manager, 1000),
     new SalesPerson("Lea", "Leova", 500)
 };
 
 ceo.PrintEmployees(company);
+
+
+//Role ROlesales(){
+//    return Role.CEO;
+//}

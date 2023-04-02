@@ -12,8 +12,8 @@ namespace EmployeeApp.Domain.Models
 
         public Manager Responsible { get; set; }
 
-        public Contractor(string firstName, string lastName, Role role, double salary, double workHours, int payPerHour, Manager responsible)
-            : base(firstName, lastName, role, salary)
+        public Contractor(string firstName, string lastName, Role role,double workHours, int payPerHour, Manager responsible)
+            : base(firstName, lastName, role,0)
         {
             
             WorkHours = workHours;
